@@ -1,0 +1,62 @@
+.bet-screen__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 2.5rem;
+    justify-content: flex-start;
+}
+
+.bank {
+    width: 500px;
+    display: flex;
+    gap: 2.5rem;
+    flex-direction: column;
+    border-radius: 1.25rem;
+    padding: 1.25rem 1.25rem 1.875rem;
+    background: linear-gradient(3deg, rgb(6 27 57), #163d73, rgb(6 27 57));
+}
+
+.bank__header {
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+}
+
+.bank__text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.bank__all-in-button {
+    height: 2.5rem;
+    background: #224b83;
+    width: 6.25rem;
+    font-size: 1.125rem;
+}
+
+.bank__all-in-button:hover {
+    background: #1a355a;
+}
+
+.bank__balance-container, .bank__input-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.bank__balance {
+    font-size: 3.75rem;
+}
+
+.bank__input {
+    padding: 0.625rem;
+    border-radius: 0.25rem;
+    width: 13.125rem;
+    font-size: 1.25rem;
+    border: none;
+    text-align: center;
+}

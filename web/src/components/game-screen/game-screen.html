@@ -1,0 +1,39 @@
+<div id="game-screen" class="container-full">
+    <div class="game-screen">
+        <div class="header-title">
+            <h1>GAME ROUND</h1>
+        </div>
+        <div class="game-screen__bank-info bank-info">
+            <span class="bank-info__text">Bank</span>
+            <div class="bank-info__balance-container">
+                <span id="bank-balance" class="bank-info__balance">$</span>
+                <img class="bank-info__coin" src="../../../img/coin.png" />
+            </div>
+        </div>
+        <div class="game-screen__game game">
+            <div class="game__area area">
+                <div id="dealer-hand" class="area__cards cards"></div>
+                <div class="area__score-container container-score">
+                    <span id="dealer-score" class="container-score__score score"></span>
+                    DEALER
+                </div>
+            </div>
+            <div class="game__bet bet">
+                <span id="current-bet" class="bet__amount"></span>
+                <img class="bet__chip" src="../../../img/chip.png">
+            </div>
+            <div class="game__area area">
+                <div id="player-hand" class="area__cards cards"></div>
+                <div class="area__score-container container-score">
+                    <span id="player-score" class="container-score__score score"></span>
+                    PLAYER
+                </div>
+            </div>
+            <div class="game__actions actions">
+                <button id="hit-button" class="actions__button actions__button--hit hit-button" disabled="true">Hit</button>
+                <button id="double-button" class="actions__button actions__button--double double-button" disabled="true">Double</button>
+                <button id="stand-button" class="actions__button actions__button--stand stand-button" disabled="true">Stand</button>
+            </div>
+        </div>
+    </div>
+</div>

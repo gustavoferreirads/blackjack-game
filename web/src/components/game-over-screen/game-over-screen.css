@@ -1,0 +1,11 @@
+.game-over-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.game-over-screen__restart-button {
+    width: 200px;
+    margin-bottom: 20px;
+}
