@@ -69,7 +69,7 @@ describe('Game', () => {
     expect(result).not.toBeUndefined();
 
     expect(() => game.playerHit()).toThrow(GameOverError);
-    expect(() => game.dealerPlay()).toThrow(GameOverError);
+    expect(() => game.dealerPlay()).not.toThrow(GameOverError);
     expect(() => game.playerDouble()).toThrow(GameOverError);
   });
 });

@@ -55,7 +55,9 @@ export class Game {
   }
 
   dealerPlay() {
-    if (this.gameResult) throw new GameOverError();
+    if (this.gameResult) {
+      return this.determineWinner();
+    }
 
     if (this.player.isBusted() || this.player.hasBlackJack()) {
       this.dealer.addCard(this.deck.drawCard());
